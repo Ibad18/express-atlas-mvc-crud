@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node App.mjs",
-    "dev": "nodemon App.mjs"
+    "dev": "nodemon App.mjs",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
