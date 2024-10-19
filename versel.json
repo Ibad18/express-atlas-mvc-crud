@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "express-atlas-crud/App.mjs", 
+        "src": "App.mjs", 
         "use": "@vercel/node"
       },
       {
@@ -13,7 +13,7 @@
     "routes": [
       {
         "src": "/api/(.*)", 
-        "dest": "express-atlas-crud/App.mjs"
+        "dest": "App.mjs"
       },
       {
         "src": "/(.*)", 
