@@ -5,7 +5,7 @@ import {
   getUserById,
   updateUser,
   deleteUser,
-} from '../controllers/userController.js';
+} from '../controllers/userController.mjs';
 
 const router = express.Router();
 router.post('/users', createUser);

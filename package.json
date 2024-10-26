@@ -1,12 +1,11 @@
 {
   "name": "express-atlas-crud",
   "version": "1.0.0",
-  "main": "App.mjs",
+  "main": "app.mjs",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node App.mjs",
-    "dev": "nodemon App.mjs"
+    "start": "node app.mjs",
+    "dev": "nodemon app.mjs"
   },
   "keywords": [],
   "author": "",
@@ -18,5 +17,8 @@
     "express": "^4.21.1",
     "mongodb": "^6.9.0",
     "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
